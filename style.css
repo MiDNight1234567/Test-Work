@@ -40,14 +40,298 @@ img {
 }
 
 @media screen and (min-width: 375px) and (max-width: 767.98px) {
+  /* Section menu */
+
+  .container {
+    width: 100%;
+  }
+
+  .menu-container {
+    width: 100%;
+    height: 380px;
+  }
+
+  .menu {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
+    background: rgb(255, 255, 255);
+  }
+
+  .menu-title {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .menu-icon-title {
+    display: inline-block;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: rgb(0, 0, 0);
+    width: 30px;
+    height: 30px;
+  }
+
+  .menu-title-hero {
+    color: rgb(0, 0, 0);
+    font-family: "Poppins";
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+    text-align: left;
+  }
+
+  .menu-subtitle {
+    color: rgb(131, 131, 131);
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding-top: 12px;
+  }
+
+  .menu-list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .menu-item:hover,
+  .menu-item:focus {
+    border-radius: 10px;
+    background: rgb(89, 50, 234);
+    width: 100%;
+    height: 35px;
+  }
+
+  .menu-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-item-title {
+    margin-left: 10px;
+    color: rgb(145, 151, 179);
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.023m;
+    text-align: left;
+  }
+
+  .menu-item-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: rgb(145, 151, 179);
+  }
+
+  .menu-item-icon-arrow {
+    margin-left: auto;
+    padding-right: 15px;
+    fill: rgb(145, 151, 179);
+  }
+
+  .menu-user {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+
+  .menu-user-title {
+    color: rgb(0, 0, 0);
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+
+  .menu-user-subtitle {
+    color: rgb(117, 117, 117);
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1%;
+    text-align: left;
+  }
+
+  .menu-user-img {
+    position: absolute;
+    width: 40px;
+    left: -48px;
+  }
+
+  /* Section hero */
+
+  .hero-box {
+  }
+  .hero-title {
+  }
+  .hero-info {
+  }
+  .hero-info-title {
+  }
+  .hero-info-subtitle {
+  }
+  .hero-search {
+  }
+  .hero-search-icon {
+  }
+  .hero-search-text {
+  }
+  .hero-list {
+  }
+  .hero-list-subtitle {
+  }
+  .hero-line-span {
+    display: block;
+    border: 1px solid rgb(238, 238, 238);
+    width: 888px;
+    height: 0;
+  }
+  .hero-list-footer {
+  }
 }
 
 /* Tablet */
 
 @media screen and (min-width: 768.95px) and (max-width: 1438.98px) {
+  /* Section menu */
+
+  .container {
+    width: 100%;
+  }
+  .menu {
+  }
+  .menu-title {
+  }
+  .menu-title {
+  }
+  .menu-icon-title {
+  }
+  .menu-subtitle {
+  }
+  .menu-item {
+  }
+  .menu-list {
+  }
+  .menu-item-title {
+  }
+  .menu-item-icon {
+  }
+  .menu-item-icon-arrow {
+  }
+  .menu-user {
+  }
+  .menu-user-title {
+  }
+  .menu-user-subtitle {
+  }
+  .menu-user-img {
+  }
+
+  /* Section hero */
+
+  .hero-box {
+  }
+  .hero-title {
+  }
+  .hero-info {
+  }
+  .hero-info-title {
+  }
+  .hero-info-subtitle {
+  }
+  .hero-search {
+  }
+  .hero-search-icon {
+  }
+  .hero-search-text {
+  }
+  .hero-list {
+  }
+  .hero-list-subtitle {
+  }
+  .hero-line-span {
+  }
+  .hero-list-footer {
+  }
 }
 
 /* Desktop */
 
 @media screen and (min-width: 1440px) {
+  /* Section menu */
+
+  .container {
+    width: 100%;
+  }
+  .menu {
+  }
+  .menu-title {
+  }
+  .menu-title {
+  }
+  .menu-icon-title {
+  }
+  .menu-subtitle {
+  }
+  .menu-item {
+  }
+  .menu-list {
+  }
+  .menu-item-title {
+  }
+  .menu-item-icon {
+  }
+  .menu-item-icon-arrow {
+  }
+  .menu-user {
+  }
+  .menu-user-title {
+  }
+  .menu-user-subtitle {
+  }
+  .menu-user-img {
+  }
+
+  /* Section hero */
+
+  .hero-box {
+  }
+  .hero-title {
+  }
+  .hero-info {
+  }
+  .hero-info-title {
+  }
+  .hero-info-subtitle {
+  }
+  .hero-search {
+  }
+  .hero-search-icon {
+  }
+  .hero-search-text {
+  }
+  .hero-list {
+  }
+  .hero-list-subtitle {
+  }
+  .hero-line-span {
+  }
+  .hero-list-footer {
+  }
 }
