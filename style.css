@@ -34,6 +34,10 @@ img {
   height: auto;
 }
 
+body {
+  margin: 0;
+}
+
 /* Mobile */
 
 @media (max-width: 375px) {
@@ -62,6 +66,7 @@ img {
     display: flex;
     align-items: center;
     flex-direction: row;
+    margin-left: 10px;
   }
 
   .menu-icon-title {
@@ -99,6 +104,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-left: 10px;
   }
 
   .menu-item:hover,
@@ -145,7 +151,7 @@ img {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 60px;
   }
 
   .menu-user-title {
@@ -171,35 +177,137 @@ img {
   .menu-user-img {
     position: absolute;
     width: 40px;
-    left: -48px;
+    left: -45px;
   }
 
   /* Section hero */
 
+  .hero-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
   .hero-box {
+    box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
+    background: rgb(255, 255, 255);
   }
+
   .hero-title {
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
   }
+
   .hero-info {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
   }
+
   .hero-info-title {
+    color: rgb(0, 0, 0);
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
   }
+
   .hero-info-subtitle {
+    color: rgb(22, 192, 152);
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left;
   }
+
   .hero-search {
+    position: absolute;
+    left: 220px;
+    top: 50px;
   }
+
+  .hero-search-input {
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    background: rgb(249, 251, 255);
+    border: none;
+  }
+
+  .hero-search-label {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  input::placeholder {
+    color: rgb(181, 183, 192);
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding-left: 40px;
+  }
+
   .hero-search-icon {
+    position: absolute;
+    left: 10px;
+    fill: rgb(126, 126, 126);
   }
-  .hero-search-text {
-  }
+
   .hero-list {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 12px;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
   }
+
+  .hero-list-subtitle-title {
+    color: rgb(181, 183, 192);
+    font-family: "Poppins";
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-left: 5px;
+  }
+
   .hero-list-subtitle {
+    color: rgb(41, 45, 50);
+    font-family: "Poppins";
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left;
   }
+
+  .hero-list-box {
+    display: flex;
+    flex-direction: row;
+  }
+
   .hero-line-span {
     display: block;
     border: 1px solid rgb(238, 238, 238);
-    width: 888px;
+    width: 100%;
     height: 0;
   }
   .hero-list-footer {
