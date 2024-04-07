@@ -418,6 +418,29 @@ body {
     background-color: rgb(89, 50, 234);
     color: rgb(255, 255, 255);
   }
+
+  /* Cover */
+
+  .cover-div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .cover-btn {
+    border-radius: 30px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    background-color: rgb(89, 50, 234);
+    margin: 15px;
+    box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
+  }
 }
 
 @media screen and (min-width: 375px) and (max-width: 767.98px) {
@@ -797,6 +820,29 @@ body {
   .scroll-active:focus {
     background-color: rgb(89, 50, 234);
     color: rgb(255, 255, 255);
+  }
+
+  /* Cover */
+
+  .cover-div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .cover-btn {
+    border-radius: 30px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    background-color: rgb(89, 50, 234);
+    margin: 15px;
+    box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
   }
 }
 
@@ -1189,6 +1235,34 @@ body {
     background-color: rgb(89, 50, 234);
     color: rgb(255, 255, 255);
   }
+
+  /* Cover */
+
+  .cover-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cover-div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .cover-btn {
+    border-radius: 30px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    background-color: rgb(89, 50, 234);
+    margin: 15px;
+    box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
+  }
 }
 
 /* Desktop */
@@ -1458,6 +1532,7 @@ body {
     margin-top: 40px;
     width: 968px;
     height: 587px;
+    margin-left: 38px;
   }
 
   table {
@@ -1501,6 +1576,15 @@ body {
     border-radius: 4px;
     background-color: rgba(22, 192, 152, 0.38);
     color: rgb(0, 135, 103);
+    width: 80px;
+    height: 29px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px 4px 12px;
+    margin-top: 20px;
   }
 
   .bottom-color-inactive {
@@ -1509,15 +1593,24 @@ body {
     border-radius: 4px;
     background-color: rgb(255, 197, 197);
     color: rgb(223, 4, 4);
+    width: 80px;
+    height: 29px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px 4px 12px;
+    margin-top: 20px;
   }
 
   .hero-list-footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 32px;
     padding-bottom: 10px;
     justify-content: space-between;
   }
@@ -1586,5 +1679,33 @@ body {
   .scroll-active:focus {
     background-color: rgb(89, 50, 234);
     color: rgb(255, 255, 255);
+  }
+
+  /* Cover */
+
+  .cover-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cover-div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .cover-btn {
+    border-radius: 30px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    background-color: rgb(89, 50, 234);
+    margin: 15px;
+    box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
   }
 }
