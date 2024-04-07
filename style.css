@@ -143,6 +143,7 @@ body {
 
   .header-link {
     fill: rgb(145, 151, 179);
+    margin-left: auto;
   }
 
   .menu-item-icon {
@@ -207,6 +208,7 @@ body {
     box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
     background: rgb(255, 255, 255);
     position: absolute;
+    width: 100%;
   }
 
   .hero-title {
@@ -546,6 +548,7 @@ body {
 
   .header-link {
     fill: rgb(145, 151, 179);
+    margin-left: auto;
   }
 
   .menu-item-icon {
@@ -610,6 +613,7 @@ body {
     box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
     background-color: rgb(255, 255, 255);
     position: absolute;
+    width: 100%;
   }
 
   .hero-title {
@@ -948,6 +952,7 @@ body {
 
   .header-link {
     fill: rgb(145, 151, 179);
+    margin-left: auto;
   }
 
   .header-link:hover a,
@@ -1373,6 +1378,7 @@ body {
 
   .header-link {
     fill: rgb(145, 151, 179);
+    margin-left: auto;
   }
 
   .header-link:hover a,
