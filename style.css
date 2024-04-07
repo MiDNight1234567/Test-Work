@@ -1154,6 +1154,15 @@ body {
     border-radius: 4px;
     background-color: rgba(22, 192, 152, 0.38);
     color: rgb(0, 135, 103);
+    width: 80px;
+    height: 29px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px 4px 12px;
+    margin-top: 5px;
   }
 
   .bottom-color-inactive {
@@ -1162,6 +1171,15 @@ body {
     border-radius: 4px;
     background-color: rgb(255, 197, 197);
     color: rgb(223, 4, 4);
+    width: 80px;
+    height: 29px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px 4px 12px;
+    margin-top: 5px;
   }
 
   .hero-list-footer {
