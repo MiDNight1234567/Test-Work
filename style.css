@@ -1575,7 +1575,7 @@ body {
   .hero-list-subtitle-title {
     color: rgb(181, 183, 192);
     font-family: "Poppins";
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 21px;
     letter-spacing: 0.01em;
@@ -1589,7 +1589,7 @@ body {
   .hero-list-subtitle {
     color: rgb(41, 45, 50);
     font-family: "Poppins";
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 21px;
     letter-spacing: 0.01em;
@@ -1600,13 +1600,12 @@ body {
 
   .bottom-color-active {
     box-sizing: border-box;
-    /* border: 1px solid rgb(0, 176, 135); */
+    border: 1px solid rgb(0, 176, 135);
     border-radius: 4px;
     background-color: rgba(22, 192, 152, 0.38);
     color: rgb(0, 135, 103);
     width: 80px;
     height: 29px;
-    /* Автолейаут */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1617,13 +1616,12 @@ body {
 
   .bottom-color-inactive {
     box-sizing: border-box;
-    /* border: 1px solid rgb(223, 4, 4); */
+    border: 1px solid rgb(223, 4, 4);
     border-radius: 4px;
     background-color: rgb(255, 197, 197);
     color: rgb(223, 4, 4);
     width: 80px;
     height: 29px;
-    /* Автолейаут */
     display: flex;
     flex-direction: row;
     justify-content: center;
